@@ -1,0 +1,13 @@
+# Абсолютний шлях до папки з даними
+path: /home/tmarchenko/Code/University/AI Systems /Lab-14/YOLO_FruitProject/My-First-Project-1
+
+# Вказуємо шлях до картинок.
+# Оскільки папки 'valid' фізично немає, ми використовуємо 'train' для обох цілей.
+train: train/images
+val: train/images
+
+# Класи
+nc: 2
+names:
+  0: apple
+  1: pear

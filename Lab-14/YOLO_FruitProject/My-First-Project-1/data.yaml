@@ -1,0 +1,14 @@
+path: /home/tmarchenko/Code/University/AI Systems /Lab-14/YOLO_FruitProject/My-First-Project-1
+names:
+  - Apple
+  - Pear
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: my-first-project-ihiux
+  url: https://universe.roboflow.com/test-rt896/my-first-project-ihiux/dataset/1
+  version: 1
+  workspace: test-rt896
+test: train/images
+train: train/images
+val: train/images
